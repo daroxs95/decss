@@ -79,55 +79,6 @@ html {
   color: var(--color-text);
 }
 
-button {
-  border-radius: var(--border-radius);
-  border: var(--border-width) solid var(--btn-primary-bg);
-  border-color: transparent;
-  background-color: var(--btn-primary-bg);
-  color: var(--btn-primary-label);
-  padding: var(--v-gap) var(--h-gap);
-  min-height: var(--h-non-text-line);
-}
-button:disabled:not(.outline):not(.stealth) {
-  background-color: var(--btn-primary-disabled);
-  cursor: not-allowed;
-}
-button:hover:not(:disabled) {
-  background-color: var(--btn-primary-hover);
-  /* box-shadow: var(--hover-primary-bshadow); */
-}
-button:active:not(:disabled) {
-  background-color: var(--btn-primary-active);
-}
-
-button.outline {
-  --btn-primary-label: var(--color-primary);
-  --btn-primary-bg: transparent;
-  --btn-primary-hover: transparent;
-  --btn-primary-active: var(--color-text-hover);
-  border-color: var(--color-primary);
-}
-button.outline.neutral {
-  --btn-primary-label: var(--color-text);
-  --btn-primary-active: var(--color-bg-1);
-  border-color: var(--color-text);
-}
-button.outline.neutral:hover:not(:disabled) {
-  box-shadow: var(--hover-text-bshadow);
-}
-
-button.stealth {
-  --btn-primary-label: var(--color-primary);
-  --btn-primary-bg: transparent;
-  --btn-primary-hover: var(--color-text-hover);
-  --btn-primary-active: var(--color-text-active);
-  --hover-primary-bshadow: none;
-  --color-primary-shadow: var(--color-text-shadow);
-}
-button.stealth.neutral {
-  --btn-primary-label: var(--color-text);
-}
-
 nav {
   display: flex;
   flex-wrap: wrap;
