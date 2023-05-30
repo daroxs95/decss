@@ -187,7 +187,6 @@ option {
 }
 
 a {
-  padding: var(--v-gap) var(--h-gap);
   border-radius: var(--border-radius);
   color: var(--color-link);
   text-decoration: none;
