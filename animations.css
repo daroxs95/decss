@@ -1,0 +1,65 @@
+.fade-in-from-bottom{
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fade-in-from-bottom 0.5s ease-out forwards;
+  /* transition-delay: calc(attr(data-position) * 0.5s); */
+}
+
+@keyframes fade-in-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in{
+  opacity: 0;
+  animation: fade-in 0.5s ease-out forwards;
+  /* transition-delay: calc(attr(data-position) * 0.5s); */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.spin {
+  animation: spin 2s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.zoom-loop {
+  animation-name: zoomInOut;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+

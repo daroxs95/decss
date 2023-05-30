@@ -1,0 +1,107 @@
+:root {
+  /* Colors */
+  /* Primary */
+  --color-primary-light: #4180fc;
+  --color-primary: #005ce6;
+  --color-primary-dark: #0047b3;
+  --color-primary-complement: #00b365;
+
+  /* Shadows */
+  --color-primary-shadow: var(--color-primary-light);
+
+  /* Shades */
+  /* https://gka.github.io/palettes/#/12|s|000000,e9e9e9,ffffff|ffffe0,ff005e,93003a|1|1 */
+  --color-bg-dark: #000000;
+  --color-bg-10: #1a1a1a;
+  --color-bg-9: #2c2c2c;
+  --color-bg-8: #404040;
+  --color-bg-7: #565656;
+  --color-bg-6: #6c6c6c;
+  --color-bg-5: #828282;
+  --color-bg-4: #9a9a9a;
+  --color-bg-3: #b2b2b2;
+  --color-bg-2: #cbcbcb;
+  --color-bg-1: #e5e5e5;
+  --color-bg-light: #ffffff;
+
+  
+  /* Feedback */
+  --color-success: #88c459;
+  --color-error: #f5414f;
+  --color-warning: #ffd137;
+  --color-accent: #f5414f;
+  /* --color-accent-light: color-mod(var(--color-accent) tint(15%));
+  --color-accent-dark: color-mod(var(--color-accent) shade(10%));
+  --color-accent-bg: color-mod(var(--color-accent) alpha(20%)); */
+
+  /* Typography */
+  --color-text: var(--color-bg-10);
+  --color-text-heading: var(--color-bg-dark);
+  --color-text-subtle: var(--color-bg-6);
+  --color-link: var(--color-primary);
+  --color-link-visited: var(--color-primary-dark);
+  --color-mark: var(--color-accent-bg);
+  --color-blockquote-border: var(--color-bg-2);
+
+  --color-text-hover: var(--color-bg-1);
+  --color-text-active: var(--color-bg-2);
+  --color-text-shadow: var(--color-bg-4);
+
+  /* Forms */
+  --form-element-border: var(--color-text-active);
+  --form-element-border-focus: var(--color-primary);
+  --form-element-border-error: var(--color-error);
+  --form-element-bg: var(--color-bg-light);
+  --form-text-placeholder: var(--color-bg-4);
+
+  /* Buttons */
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-hover: var(--color-primary-light);
+  --btn-primary-active: var(--color-primary-dark);
+  --btn-primary-label: var(--color-bg-light);
+  --btn-primary-disabled: var(--color-bg-3);
+
+  /* Icons */
+  --color-icon-primary: var(--color-bg-4);
+  --color-icon-secondary: inherit;
+
+  /* Gradients */
+  --gradient-primary-background: linear-gradient(90deg, var(--color-primary-dark) 10.79%, var(--color-primary) 87.08%);
+
+  /* App Backgrounds */
+  --app-bg-light: var(--color-bg-1);
+  --app-bg: var(--color-bg-light);
+  --app-bg-dark: var(--color-bg-2);
+
+
+  
+  /* Spacing */
+  --h-gap: 0.8rem;
+  --h-gap-l: 5rem;
+  --v-gap: 0.5rem;
+  --v-gap-l: 5rem;
+
+  /* Misc */
+  --border-width: 1px;
+  --border-radius: 3px;
+  --h-non-text-line: 40px;
+
+  --hover-primary-bshadow: inset var(--color-primary-shadow) 0 0 0 1px;
+  --hover-text-bshadow: inset var(--color-text) 0 0 0 1px;
+  --card-bshadow: 0 1px 2px var(--app-bg-light), 0 1px 2px var(--app-bg-dark);
+  --hover-card-bshadow: 0 1px 6px var(--app-bg-light), 0 1px 6px var(--app-bg-dark);
+}
+
+[data-theme="dark"] {
+  --app-bg: var(--color-bg-9);
+  --app-bg-light: var(--color-bg-8);
+  --app-bg-dark: var(--color-bg-dark);
+
+  --color-text: var(--color-bg-1);
+  --color-text-heading: var(--color-bg-light);
+  --color-text-subtle: var(--color-bg-3);
+
+  --color-text-hover: var(--color-bg-6);
+  --color-text-active: var(--color-bg-8);
+  --color-text-shadow: var(--color-bg-10);
+}
