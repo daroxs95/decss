@@ -3,7 +3,7 @@
 - hoverable
 - pressable
 - f-ai-center
-- f-aiend
+- f-ai-end
 - f-jc-end
 - f-jc-center
 - vstack
