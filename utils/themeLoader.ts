@@ -1,4 +1,4 @@
-import { DEFAULT_COLOR_THEME } from "../config";
+export const DEFAULT_COLOR_THEME = "light";
 
 type Theme = "dark" | "light";
 
