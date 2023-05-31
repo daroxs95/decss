@@ -8,6 +8,7 @@
 - `f-ai-end`: flex align items end
 - `f-jc-end`: flex justify content end
 - `f-jc-center`: flex justify content center
+- `f-jc-start`: flex justify content start
 - `vstack`: flex vertical stack
 - `hstack`: flex horizontal stack
 - `p-def`: applies default padding
@@ -19,6 +20,8 @@
 ### Sizing
 - `w-max-content`: width max content
 - `w-min-content`: width min content
+- `p-0`: removes padding
+- `m-0`: removes margins
 
 ### Component
 - `outline`: Show button as outlined
