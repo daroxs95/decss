@@ -1,9 +1,9 @@
 :root {
   /* Colors */
   /* Primary */
-  --color-primary-light: #4180fc;
-  --color-primary: #005ce6;
-  --color-primary-dark: #0047b3;
+  --color-primary-light: #ff2656;
+  --color-primary: #ef2964;
+  --color-primary-dark: #c21e58;
   --color-primary-complement: #00b365;
 
   /* Shadows */
