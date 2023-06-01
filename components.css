@@ -79,6 +79,14 @@
   width: 100%;
 }
 
+.border-0 {
+  border: none;
+}
+
+.border-1 {
+  border: var(--border-width) solid var(--color-text-active);
+}
+
 .card {
   border: var(--border-width) solid var(--color-text-active);
   border-radius: var(--border-radius);
