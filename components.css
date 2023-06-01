@@ -83,6 +83,10 @@
   border: none;
 }
 
+.border-r-1 {
+  border-radius: var(--border-radius);
+}
+
 .border-1 {
   border: var(--border-width) solid var(--color-text-active);
 }

@@ -17,6 +17,7 @@
 ### Styling
 - `text-error`: Set color to error
 - `border-1`: Applies common borders
+- `border-r-1`: Applies common borders radius
 
 ### Sizing
 - `w-max-content`: width max content
