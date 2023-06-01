@@ -26,7 +26,7 @@ button:disabled:not(.outline):not(.stealth) {
 }
 button:hover:not(:disabled) {
   background-color: var(--btn-primary-hover);
-  /* box-shadow: var(--hover-primary-bshadow); */
+  box-shadow: var(--hover-primary-bshadow);
 }
 button:active:not(:disabled) {
   background-color: var(--btn-primary-active);
