@@ -19,6 +19,7 @@
 
 ### Sizing
 - `w-max-content`: width max content
+- `w-100`: width 100%
 - `w-min-content`: width min content
 - `p-0`: removes padding
 - `m-0`: removes margins
@@ -27,6 +28,7 @@
 - `outline`: Show button as outlined
 - `neutral`: Uses dull color, not the primary
 - `card`: Styles as a card
+- `separator`: Separator
 
 ### Animations
 - `fade-in`: Just that
