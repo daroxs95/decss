@@ -1,4 +1,4 @@
-.fade-in-from-bottom{
+.fade-in-from-bottom {
   opacity: 0;
   transform: translateY(50px);
   animation: fade-in-from-bottom 0.5s ease-out forwards;
@@ -10,15 +10,16 @@
     opacity: 0;
     transform: translateY(50px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.fade-in{
+.fade-in {
   opacity: 0;
-  animation: fade-in 0.5s ease-out forwards;
+  animation: fade-in var(--anim-duration) ease-out forwards;
   /* transition-delay: calc(attr(data-position) * 0.5s); */
 }
 
@@ -26,6 +27,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -40,6 +42,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -55,11 +58,12 @@
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.5);
   }
+
   100% {
     transform: scale(1);
   }
 }
-
