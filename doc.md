@@ -13,6 +13,7 @@
 - `hstack`: flex horizontal stack
 - `p-def`: applies default padding
 - `f-wrap`: flex wrap
+- `f-grow`: flex grow 1
 
 ### Styling
 - `text-error`: Set color to error

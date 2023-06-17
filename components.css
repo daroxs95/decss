@@ -26,6 +26,10 @@
   flex-wrap: wrap;
 }
 
+.f-grow {
+  flex-grow: 1;
+}
+
 .p-def {
   padding: var(--v-gap) var(--h-gap);
 }
