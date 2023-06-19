@@ -9,4 +9,5 @@ import "../components/code.css";
 import "../components/button.css";
 import "../components/separator.css";
 import "../components/dialog.css";
+import "../components/input.css";
 import "../components.css";
