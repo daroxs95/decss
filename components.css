@@ -65,6 +65,10 @@
   color: var(--color-error);
 }
 
+.text-c-unfocus {
+  color: var(--form-text-placeholder);
+}
+
 @media screen {
   .hide-mobile {
     display: none;

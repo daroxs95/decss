@@ -35,3 +35,6 @@
 
 ### Animations
 - `fade-in`: Just that
+
+### Colors
+- `text-c-unfocus`: Applies a less bright color, like dimmed.
