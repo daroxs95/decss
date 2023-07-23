@@ -38,8 +38,8 @@
   --color-text: var(--color-bg-10);
   --color-text-heading: var(--color-bg-dark);
   --color-text-subtle: var(--color-bg-6);
-  --color-link: var(--color-primary);
-  --color-link-visited: var(--color-primary-dark);
+  --color-link: var(--color-primary-light);
+  --color-link-visited: var(--color-primary);
   --color-mark: var(--color-accent-bg);
   --color-blockquote-border: var(--color-bg-2);
 
@@ -73,8 +73,13 @@
   --app-bg: var(--color-bg-light);
   --app-bg-dark: var(--color-bg-2);
 
+  /* Font */
+  --text-font-family: Google Sans, Segoe UI, system-ui, -apple-system, sans-serif;
+  --text-normal-size: 20px;
+  --text-normal-line-height: 200%;
+  --text-big-size: 50px;
+  --text-big-line-height: 120%;
 
-  
   /* Spacing */
   --h-gap: 0.8rem;
   --h-gap-l: 5rem;
@@ -100,7 +105,7 @@
   --app-bg-light: var(--color-bg-8);
   --app-bg-dark: var(--color-bg-dark);
 
-  --color-text: var(--color-bg-1);
+  --color-text: var(--color-bg-light);
   --color-text-heading: var(--color-bg-light);
   --color-text-subtle: var(--color-bg-3);
 

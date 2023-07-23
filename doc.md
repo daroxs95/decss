@@ -2,6 +2,7 @@
 ### Utility
 - `hoverable`: applies default styles on hover
 - `pressable`: applies default styles to active
+- `upper`: Set text as uppercase
 
 ### Layout
 - `f-ai-center`: flex align items center
@@ -12,6 +13,7 @@
 - `vstack`: flex vertical stack
 - `hstack`: flex horizontal stack
 - `p-def`: applies default padding
+- `m-def`: applies default margins(same values as paddings in `p-def`)
 - `f-wrap`: flex wrap
 - `f-grow`: flex grow 1
 

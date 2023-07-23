@@ -34,6 +34,10 @@
   padding: var(--v-gap) var(--h-gap);
 }
 
+.m-def {
+  margin: var(--v-gap) var(--h-gap);
+}
+
 .f-jc-end {
   display: flex;
   justify-content: end;
@@ -59,6 +63,10 @@
 
 .iblock {
   display: inline-block;
+}
+
+.upper {
+  text-transform: uppercase;
 }
 
 .text-error {
