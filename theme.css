@@ -77,7 +77,7 @@
   --text-font-family: Google Sans, Segoe UI, system-ui, -apple-system, sans-serif;
   --text-normal-size: 20px;
   --text-normal-line-height: 200%;
-  --text-big-size: 50px;
+  --text-big-size: 30px;
   --text-big-line-height: 120%;
 
   /* Spacing */
@@ -112,4 +112,10 @@
   --color-text-hover: var(--color-bg-6);
   --color-text-active: var(--color-bg-8);
   --color-text-shadow: var(--color-bg-10);
+}
+
+@media (min-width:600px) {
+  :root {
+    --text-big-size: 50px;
+  }
 }
