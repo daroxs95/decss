@@ -48,6 +48,11 @@
   justify-content: start;
 }
 
+.f-jc-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .p-0 {
   padding: 0;
 }
