@@ -10,6 +10,7 @@
 - `f-jc-end`: flex justify content end
 - `f-jc-center`: flex justify content center
 - `f-jc-start`: flex justify content start
+- `f-jc-between`: flex justify content space between
 - `vstack`: flex vertical stack
 - `hstack`: flex horizontal stack
 - `p-def`: applies default padding
