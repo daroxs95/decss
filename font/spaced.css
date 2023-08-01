@@ -31,4 +31,5 @@ h6 {
 
 body {
   font-size: var(--text-normal-size);
+  -webkit-font-smoothing: antialiased;
 }
