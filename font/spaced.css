@@ -14,17 +14,33 @@ h6 {
 
 p,
 a,
-ul {
-  font-size: var(--text-normal-size);
-  line-height: var(--text-normal-line-height);
-}
-
-h1,
-h2,
+ul,
 h3,
 h4,
 h5,
 h6 {
+  font-size: var(--text-normal-size);
+  line-height: var(--text-normal-line-height);
+}
+
+p,
+a,
+ul,
+h1,
+h2 {
+  font-weight: var(--text-normal-weight);
+}
+
+b,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--text-big-weight);
+}
+
+h1,
+h2 {
   font-size: var(--text-big-size);
   line-height: var(--text-big-line-height);
 }
