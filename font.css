@@ -1,4 +1,22 @@
-body {
-  font-size: 18px;
-  font-family: "Open Sans", Segoe UI,system-ui,-apple-system,sans-serif;
+p,
+a,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top: var(--h-gap);
+  padding-bottom: var(--h-gap);
+}
+
+p,
+a,
+ul,
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--text-normal-size);
 }

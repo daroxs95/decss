@@ -73,15 +73,6 @@
   --app-bg: var(--color-bg-light);
   --app-bg-dark: var(--color-bg-2);
 
-  /* Font */
-  --text-font-family: Google Sans, Segoe UI, system-ui, -apple-system, sans-serif;
-  --text-normal-size: 20px;
-  --text-normal-weight: 300;
-  --text-normal-line-height: 200%;
-  --text-big-size: 30px;
-  --text-big-weight: 700;
-  --text-big-line-height: 120%;
-
   /* Spacing */
   --h-gap: 0.8rem;
   --h-gap-l: 5rem;

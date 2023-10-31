@@ -1,10 +1,8 @@
 export const DEFAULT_COLOR_THEME = "light";
 
-type Theme = "dark" | "light";
-
-export function getColorTheme(): Theme {
+export function getColorTheme() {
   //local storage is used to override OS theme settings
-  const theme = localStorage.getItem("theme") as Theme;
+  const theme = localStorage.getItem("theme");
   if (theme) {
     return theme;
   }
@@ -20,8 +18,14 @@ export function getColorTheme(): Theme {
   return DEFAULT_COLOR_THEME;
 }
 
-//function that changes the theme, and sets a localStorage variable to track the theme between page loads
-export function setColorTheme(theme: Theme) {
+//
+
+/**
+ * Function that changes the theme,
+ * and sets a localStorage variable to track the theme between page loads
+ * @param {('light'|'dark')} theme
+ */
+export function setColorTheme(theme) {
   localStorage.setItem("theme", theme);
   document.documentElement.setAttribute("data-theme", theme);
 }

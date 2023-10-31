@@ -1,8 +1,8 @@
-import '../reset.css'
-import '../scrollbar.css'
-import '../font.css'
-import '../theme.css'
-import '../animations.css'
+import "../reset.css";
+import "../scrollbar.css";
+import "../font.css";
+import "../theme.css";
+import "../animations.css";
 import "../components/article.css";
 import "../components/details.css";
 import "../components/code.css";
