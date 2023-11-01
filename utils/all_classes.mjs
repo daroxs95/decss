@@ -1,4 +1,3 @@
-import "../classes.css";
 import "../components/classes/article.css";
 import "../components/classes/button.css";
 import "../components/classes/code.css";
@@ -9,3 +8,4 @@ import "../components/classes/input.css";
 import "../components/classes/link.css";
 import "../components/classes/navbar.css";
 import "../components/classes/separator.css";
+import "../classes.css";

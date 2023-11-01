@@ -20,6 +20,7 @@
 - `m-def`: applies default margins(same values as paddings in `p-def`)
 - `f-wrap`: flex wrap
 - `f-grow`: flex grow 1
+- `hide-mobile`: hide on mobile
 
 ### Styling
 
@@ -31,6 +32,7 @@
 
 - `w-max-content`: width max content
 - `w-100`: width 100%
+- `h-100`: height 100%
 - `w-min-content`: width min content
 - `p-0`: removes padding
 - `m-0`: removes margins
