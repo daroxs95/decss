@@ -1,10 +1,13 @@
 ## CSS clases
+
 ### Utility
+
 - `hoverable`: applies default styles on hover
 - `pressable`: applies default styles to active
 - `upper`: Set text as uppercase
 
 ### Layout
+
 - `f-ai-center`: flex align items center
 - `f-ai-end`: flex align items end
 - `f-jc-end`: flex justify content end
@@ -19,11 +22,13 @@
 - `f-grow`: flex grow 1
 
 ### Styling
+
 - `text-error`: Set color to error
 - `border-1`: Applies common borders
 - `border-r-1`: Applies common borders radius
 
 ### Sizing
+
 - `w-max-content`: width max content
 - `w-100`: width 100%
 - `w-min-content`: width min content
@@ -31,13 +36,31 @@
 - `m-0`: removes margins
 
 ### Component
+
 - `outline`: Show button as outlined
 - `neutral`: Uses dull color, not the primary
 - `card`: Styles as a card
 - `separator`: Separator
 
 ### Animations
+
 - `fade-in`: Just that
 
 ### Colors
+
 - `text-c-unfocus`: Applies a less bright color, like dimmed.
+
+## CSS components (No semantic styling)
+
+Not fully implemented but all html tag that is being styled by decss, has a counter part class to avoid semantic styling.
+For example to stylize a custom element as an anchor tag:
+
+```javascript
+import "decss/components/classes/link.css";
+```
+
+```html
+<div class="a">This will look like a link</div>
+```
+
+As a drawback to this, the development need to be duplicated, but it's a good trade off to have more flexibility while avoiding preprocessors or bundling.

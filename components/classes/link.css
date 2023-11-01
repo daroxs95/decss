@@ -1,0 +1,19 @@
+.a {
+  border-radius: var(--border-radius);
+  color: var(--color-link);
+  text-decoration: none;
+  min-height: var(--h-non-text-line);
+}
+
+.a:hover[aria-disabled="true"] {
+  cursor: not-allowed;
+}
+
+.a:hover:not([aria-disabled="true"]) {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.a:visited {
+  color: var(--color-link-visited);
+}

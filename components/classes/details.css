@@ -1,0 +1,20 @@
+.details {
+  margin-bottom: var(--v-gap);
+}
+
+.details summary {
+  cursor: default;
+  border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--btn-primary-bg);
+  border-color: transparent;
+  background-color: transparent;
+  color: var(--color-text);
+  padding: var(--v-gap) var(--h-gap);
+  min-height: var(--h-non-text-line);
+}
+.details summary:hover:not(:disabled) {
+  background-color: var(--color-text-hover);
+}
+.details summary:active:not(:disabled) {
+  background-color: var(--color-text-active);
+}

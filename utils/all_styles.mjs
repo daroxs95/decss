@@ -1,5 +1,6 @@
 import "../reset.css";
 import "../scrollbar.css";
+import "../scrollbar.css";
 import "../font.css";
 import "../theme.css";
 import "../animations.css";
@@ -10,4 +11,8 @@ import "../components/button.css";
 import "../components/separator.css";
 import "../components/dialog.css";
 import "../components/input.css";
+import "../components/link.css";
+import "../components/navbar.css";
+import "../components/footer.css";
+import "../classes.css";
 import "../components.css";

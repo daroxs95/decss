@@ -1,0 +1,6 @@
+.dialog {
+  margin: auto;
+  padding: var(--v-gap) var(--h-gap);
+  box-shadow: var(--card-bshadow);
+  min-width: 300px;
+}

@@ -1,0 +1,5 @@
+footer {
+  background-color: var(--app-bg-light);
+  padding: var(--v-gap-l) var(--h-gap-l);
+  color: var(--form-element-bg);
+}

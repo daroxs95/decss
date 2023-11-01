@@ -1,0 +1,6 @@
+.pre {
+  padding: var(--v-gap) var(--h-gap);
+  margin-bottom: var(--h-gap);
+  border: var(--border-width) solid var(--form-element-border);
+  border-radius: var(--border-radius);
+}
