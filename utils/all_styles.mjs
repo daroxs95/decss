@@ -8,7 +8,6 @@ import "../components/article.css";
 import "../components/details.css";
 import "../components/code.css";
 import "../components/button.css";
-import "../components/separator.css";
 import "../components/dialog.css";
 import "../components/input.css";
 import "../components/link.css";
