@@ -1,0 +1,14 @@
+.card {
+    border: var(--border-width) solid var(--color-text-active);
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-bshadow);
+    padding: var(--v-gap) var(--h-gap);
+}
+
+.card.hoverable:hover:not([aria-disabled="true"]) {
+    box-shadow: var(--hover-card-bshadow);
+}
+
+.card.pressable:active:not([aria-disabled="true"]) {
+    box-shadow: none;
+}

@@ -1,4 +1,4 @@
-## CSS clases
+## CSS classes
 
 ### Utility
 
@@ -52,9 +52,14 @@
 
 - `text-c-unfocus`: Applies a less bright color, like dimmed.
 
+### Text
+
+- `t-a-center`: Aligns text to center.
+
 ## CSS components (No semantic styling)
 
-Not fully implemented but all html tag that is being styled by decss, has a counter part class to avoid semantic styling.
+Not fully implemented but all html tag that is being styled by decss, has a counterpart class to avoid semantic
+styling.
 For example to stylize a custom element as an anchor tag:
 
 ```javascript
@@ -62,7 +67,9 @@ import "decss/components/classes/link.css";
 ```
 
 ```html
+
 <div class="a">This will look like a link</div>
 ```
 
-As a drawback to this, the development need to be duplicated, but it's a good trade off to have more flexibility while avoiding preprocessors or bundling.
+As a drawback to this, the development need to be duplicated, but it's a good trade off to have more flexibility while
+avoiding preprocessors or bundling.

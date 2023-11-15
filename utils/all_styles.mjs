@@ -13,5 +13,6 @@ import "../components/input.css";
 import "../components/link.css";
 import "../components/navbar.css";
 import "../components/footer.css";
+import "../components/classes/card.css";
 import "../classes.css";
 import "../components.css";

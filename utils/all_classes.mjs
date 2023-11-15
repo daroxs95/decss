@@ -8,4 +8,5 @@ import "../components/classes/input.css";
 import "../components/classes/link.css";
 import "../components/classes/navbar.css";
 import "../components/classes/separator.css";
+import "../components/classes/card.css";
 import "../classes.css";
