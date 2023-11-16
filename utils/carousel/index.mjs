@@ -10,7 +10,7 @@
  * @param {boolean|undefined} [config.swipe=false] - Whether to enable swipe behavior or not.
  * @param {boolean|undefined} [config.navigation=false] - Whether to enable prev and next buttons.
  * @param {boolean|undefined} [config.pagination=false] - Whether to enable prev and next buttons.
- *
+ * @param {boolean|undefined} [config.allowSelect=false] - Whether to enable user select.
  * Usage:
  *
  * 1. Include the following HTML structure in your page:
@@ -110,7 +110,7 @@ export function createCarousel(config) {
     // carouselContent.scrollLeft = carouselContent.scrollLeft - diffX;
   }
 
-  function handleTouchEnd(event) {
+  function handleTouchEnd() {
     if (diffX > 0 && Math.abs(diffX) > Math.abs(diffY)) {
       prevSlide();
     } else if (diffX < 0 && Math.abs(diffX) > Math.abs(diffY)) {
@@ -138,7 +138,7 @@ export function createCarousel(config) {
     // carouselContent.scrollLeft = carouselContent.scrollLeft - walk;
   }
 
-  function handleMouseUp(event) {
+  function handleMouseUp() {
     isDragging = false;
     if (diffX > 0 && Math.abs(diffX) > Math.abs(diffY)) {
       prevSlide();
@@ -160,7 +160,7 @@ export function createCarousel(config) {
     for (let i = 0; i < slides.length; i++) {
       const button = document.createElement("button");
       button.classList.add("page");
-      button.textContent = i + 1;
+      button.textContent = (i + 1).toString();
       button.addEventListener("click", () => {
         showSlide(i);
       });

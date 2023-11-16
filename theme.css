@@ -24,7 +24,7 @@
   --color-bg-1: #e5e5e5;
   --color-bg-light: #ffffff;
 
-  
+
   /* Feedback */
   --color-success: #88c459;
   --color-error: #f5414f;
@@ -32,7 +32,7 @@
   --color-accent: #f5414f;
   /* --color-accent-light: color-mod(var(--color-accent) tint(15%));
   --color-accent-dark: color-mod(var(--color-accent) shade(10%));
-  --color-accent-bg: color-mod(var(--color-accent) alpha(20%)); */
+  --color-accent-bg: color-mod(var(--color-accent) alpha(20%));*/
 
   /* Typography */
   --color-text: var(--color-bg-10);
@@ -40,7 +40,7 @@
   --color-text-subtle: var(--color-bg-6);
   --color-link: var(--color-primary-light);
   --color-link-visited: var(--color-primary);
-  --color-mark: var(--color-accent-bg);
+  --color-mark: var(--color-primary-dark);
   --color-blockquote-border: var(--color-bg-2);
 
   --color-text-hover: var(--color-bg-1);
