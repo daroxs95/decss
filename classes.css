@@ -53,6 +53,11 @@
   justify-content: space-between;
 }
 
+.f-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .p-0 {
   padding: 0;
 }
