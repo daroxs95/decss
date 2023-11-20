@@ -5,6 +5,7 @@
 - `hoverable`: applies default styles on hover
 - `pressable`: applies default styles to active
 - `upper`: Set text as uppercase
+- `pointer`: Set cursor pointer
 
 ### Layout
 
