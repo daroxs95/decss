@@ -27,6 +27,7 @@
 ### Styling
 
 - `text-error`: Set color to error
+- `text-success`: Set color to success
 - `border-1`: Applies common borders
 - `border-r-1`: Applies common borders radius
 

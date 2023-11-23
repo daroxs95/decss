@@ -83,6 +83,10 @@
   color: var(--color-error);
 }
 
+.text-success {
+    color: var(--color-success);
+}
+
 .text-c-unfocus {
   color: var(--form-text-placeholder);
 }
