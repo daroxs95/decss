@@ -54,8 +54,8 @@
 }
 
 .f-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .p-0 {
@@ -64,6 +64,10 @@
 
 .m-0 {
   margin: 0;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .f-jc-center {
@@ -84,7 +88,7 @@
 }
 
 .text-success {
-    color: var(--color-success);
+  color: var(--color-success);
 }
 
 .text-c-unfocus {

@@ -39,6 +39,7 @@
 - `w-min-content`: width min content
 - `p-0`: removes padding
 - `m-0`: removes margins
+- `m-auto`: margin auto
 
 ### Component
 
