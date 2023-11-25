@@ -2,7 +2,6 @@ a {
   border-radius: var(--border-radius);
   color: var(--color-link);
   text-decoration: none;
-  min-height: var(--h-non-text-line);
 }
 
 a:hover[aria-disabled="true"] {
