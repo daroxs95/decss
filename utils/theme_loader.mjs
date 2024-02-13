@@ -6,11 +6,7 @@ export function getColorTheme() {
   if (theme) {
     return theme;
   }
-  if (
-    window &&
-    window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  ) {
+  if (window?.matchMedia?.("(prefers-color-scheme: dark)").matches) {
     //OS theme setting detected as dark
     return "dark";
   }
