@@ -71,7 +71,6 @@ import "decss/components/classes/link.css";
 ```
 
 ```html
-
 <div class="a">This will look like a link</div>
 ```
 

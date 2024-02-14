@@ -21,4 +21,4 @@ git push
 ### TODO
 
 - [ ] Adjust text sizing(padding and margins) to be able to put buttons links and texts in the same line and keep them
-  align
+      align

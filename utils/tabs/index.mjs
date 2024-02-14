@@ -9,9 +9,8 @@ function openTab(tab) {
     }
   });
 
-  const tabContents = tab.parentNode.parentNode.querySelectorAll(
-    ".tab-content"
-  );
+  const tabContents =
+    tab.parentNode.parentNode.querySelectorAll(".tab-content");
 
   tabContents.forEach((content) => {
     content.classList.remove("active");

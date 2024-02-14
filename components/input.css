@@ -16,8 +16,8 @@ input {
   appearance: none;
 }
 
-input:noEmpty,
-select:noEmpty {
+input:noempty,
+select:noempty {
   outline: none;
 }
 
@@ -44,34 +44,34 @@ option {
   background-color: var(--app-bg);
 }
 
-input[type='checkbox'] {
+input[type="checkbox"] {
   padding: 0;
   position: relative;
   aspect-ratio: 1;
-  width: calc(3/4* var(--h-non-text-line));
-  min-height: calc(3/4* var(--h-non-text-line));
-  margin-top: calc(1/8* var(--h-non-text-line));
-  margin-bottom: calc(1/8* var(--h-non-text-line));
+  width: calc(3 / 4 * var(--h-non-text-line));
+  min-height: calc(3 / 4 * var(--h-non-text-line));
+  margin-top: calc(1 / 8 * var(--h-non-text-line));
+  margin-bottom: calc(1 / 8 * var(--h-non-text-line));
 }
 
-input[type='checkbox']:active {
+input[type="checkbox"]:active {
   background-color: var(--color-text-active);
 }
 
-input[type='checkbox']:hover {
+input[type="checkbox"]:hover {
   box-shadow: var(--hover-primary-bshadow);
 }
 
-input[type='checkbox']:checked {
+input[type="checkbox"]:checked {
   background-color: var(--btn-primary-bg);
 }
 
-input[type='checkbox']:checked:hover {
+input[type="checkbox"]:checked:hover {
   background-color: var(--btn-primary-hover);
 }
 
-input[type='checkbox']:checked:after {
-  content: '\2714';
+input[type="checkbox"]:checked:after {
+  content: "\2714";
   font-size: 1rem;
   position: absolute;
   left: 0;

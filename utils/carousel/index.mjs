@@ -77,7 +77,10 @@ export function createCarousel(config) {
 
   function nextSlide() {
     currentSlide += config.slidesToScroll;
-    if (currentSlide + config.slidesToScroll - 1 >= slides.length && config.loop) {
+    if (
+      currentSlide + config.slidesToScroll - 1 >= slides.length &&
+      config.loop
+    ) {
       currentSlide = 0;
     }
     showSlide(currentSlide);

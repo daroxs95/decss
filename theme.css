@@ -24,7 +24,6 @@
   --color-bg-1: #e5e5e5;
   --color-bg-light: #ffffff;
 
-
   /* Feedback */
   --color-success: #88c459;
   --color-error: #f5414f;
@@ -66,7 +65,11 @@
   --color-icon-secondary: inherit;
 
   /* Gradients */
-  --gradient-primary-background: linear-gradient(90deg, var(--color-primary-dark) 10.79%, var(--color-primary) 87.08%);
+  --gradient-primary-background: linear-gradient(
+    90deg,
+    var(--color-primary-dark) 10.79%,
+    var(--color-primary) 87.08%
+  );
 
   /* App Backgrounds */
   --app-bg-light: var(--color-bg-1);
@@ -87,7 +90,8 @@
   --hover-primary-bshadow: inset var(--color-primary-shadow) 0 0 0 1px;
   --hover-text-bshadow: inset var(--color-text) 0 0 0 1px;
   --card-bshadow: 0 1px 2px var(--app-bg-light), 0 1px 2px var(--app-bg-dark);
-  --hover-card-bshadow: 0 1px 6px var(--app-bg-light), 0 1px 6px var(--app-bg-dark);
+  --hover-card-bshadow: 0 1px 6px var(--app-bg-light),
+    0 1px 6px var(--app-bg-dark);
 
   /* Animations */
   --anim-duration: 0.2s;
@@ -107,7 +111,7 @@
   --color-text-shadow: var(--color-bg-10);
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
   :root {
     --text-big-size: 50px;
   }
