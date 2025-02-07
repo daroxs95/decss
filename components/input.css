@@ -7,6 +7,10 @@ select {
   background-color: transparent;
   color: var(--color-text);
   font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
 }
 
 input {
