@@ -6,6 +6,7 @@
 - `pressable`: applies default styles to active
 - `upper`: Set text as uppercase
 - `pointer`: Set cursor pointer
+- `no-shadow`: Removes box shadow
 
 ### Layout
 
@@ -23,6 +24,8 @@
 - `f-wrap`: flex wrap
 - `f-grow`: flex grow 1
 - `hide-mobile`: hide on mobile
+- `grid`: display grid (6 cols)
+- `col-${NUMBER}`: grid columns number(2-6)
 
 ### Styling
 
